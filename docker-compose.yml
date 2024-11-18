@@ -1,0 +1,8 @@
+services:
+  python_dev:
+    build: ./
+    container_name: python_dev
+    working_dir : /root/opt/app
+    tty: true
+    volumes:
+      - ./:/root/opt/

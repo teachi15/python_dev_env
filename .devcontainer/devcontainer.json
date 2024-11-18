@@ -1,0 +1,9 @@
+{
+    "name": "dev container",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "python_dev",
+    "workspaceFolder": "/root/opt",
+    "extensions": [
+        "ms-python.python" 
+    ]
+}

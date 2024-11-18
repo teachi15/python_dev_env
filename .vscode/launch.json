@@ -1,0 +1,26 @@
+{   
+    "configurations": [
+        {
+            "name": "Python: main",
+            "type": "python",
+            "request": "launch",
+            "cwd": "/root/opt/app",
+            "module": "main",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "/usr/local/lib/python3.9/site-packages"
+            }
+        },
+        {
+            "name": "Python: current file",
+            "type": "python",
+            "request": "launch",
+            "cwd": "/root/opt/app",
+            "program": "${file}",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "/usr/local/lib/python3.9/site-packages"
+            }
+        }
+    ]
+}
